@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <title>Prince</title>
+</head>
+<body>
+    <!-- Header-->
+    <header class="hero" id="hero">
+        <nav class="navbar">
+            <div class="nav-logo"><a href="#home" class="navbar-brand">Prince</a></div>
+            <div id="nav-menu" class="nav-menu">
+                <i class="fas fa-times nav-close" id="nav-close" onclick="closeMenu()"></i>
+              <ul class="nav-list">
+                <li class="nav-item fix"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact Me</a></li>
+              </ul>
+            </div>
+            <i class="fas fa-bars nav-open" id="nav-open" onclick="openMenu()"></i>
+        </nav>
+        <div class="banner-title">
+            <h1>Hi I'am Prince</h1>
+            <h5>Frontend Developer</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Neque in suscipit sint qui perspiciatis illum minima.<br>
+                 Neque in suscipit sint qui perspiciatis illum minima.
+            </p>
+            <button class="btn">Contact Me</button>
+        </div>
+        <a href="" class="scroll-down-a"><i class="fas fa-chevron-down scroll-down"></i></a>
+        <aside class="side-bar">
+            <div class="search-icon">
+                <i class="fas fa-list-ul"></i>
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest-p"></i>
+            </div>
+        </aside>
+    </header>
+
+     <!--About-->
+     <section class="about" id="about">
+         <div class="about-content">
+            <div class="about-content-one">
+                <div class="about-text">
+                    <h1>About Me</h1>
+                    <h2>Freelance Frontend Developer</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis error placeat quos aliquam ea.
+                         eveniet esse maiores eum vitae maxime libero! Rem, a quaerat! Voluptatibus quasi expedita sed recusandae magni,
+                         eveniet esse maiores eum vitae maxime libero! Rem, a quaerat! Voluptatibus quasi expedita sed recusandae magni.
+                         eveniet esse maiores eum vitae maxime libero! Rem, a quaerat! Voluptatibus quasi expedita sed recusandae magni!
+                    </p>
+                    <button class="btn">Learn more</button>
+                </div>
+                <div class="about-img-box">
+                    <img src="/assets/imgs/about (2).jpg" alt="" class="about-img">
+                </div>
+            </div>
+         </div>
+     </section>
+
+     <!-- Services -->
+     <section class="services" id="services">
+         <div class="s-title sec-title">
+             <h1>Services</h1>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quam sed impedit.</p>
+         </div>
+
+         <div class="s-container">
+             <div class="s-box">
+                 <div class="s-box-img">
+                     <div class="s-box-type">Front-End</div>
+                     <img src="/assets/imgs/frontend.jpg" class="" alt="">
+                 </div>
+                 <div class="s-box-text">
+                     <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                         Error quis quaerat vel eum obcaecati sequi suscipit consequatur vero! 
+                         Iure vero reprehenderit sit beatae voluptas omnis magnam, quam consequuntur necessitatibus nesciunt!
+                    </a>
+                 </div>
+             </div>
+             <div class="s-box">
+                 <div class="s-box-img">
+                     <div class="s-box-type">Back-End</div>
+                     <img src="/assets/imgs/backend.jpg" class="" alt="">
+                 </div>
+                 <div class="s-box-text">
+                     <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                         Error quis quaerat vel eum obcaecati sequi suscipit consequatur vero! 
+                         Iure vero reprehenderit sit beatae voluptas omnis magnam, quam consequuntur necessitatibus nesciunt!
+                    </a>
+                 </div>
+             </div>
+             <div class="s-box">
+                 <div class="s-box-img">
+                     <div class="s-box-type">SEO</div>
+                     <img src="/assets/imgs/SEO.jpg" class="" alt="">
+                 </div>
+                 <div class="s-box-text">
+                     <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                         Error quis quaerat vel eum obcaecati sequi suscipit consequatur vero! 
+                         Iure vero reprehenderit sit beatae voluptas omnis magnam, quam consequuntur necessitatibus nesciunt!
+                    </a>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+     <!-- Portfolio -->
+     <section class="portfolio section" id="portfolio">
+        <div class="p-title sec-title">
+            <h1>Portfolio</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quam sed impedit.</p>
+        </div>
+
+        <div class="p-container">
+            <div class="p-box">
+                <div class="text-overlay">
+                    <h1>Resturant</h1>
+                    <p>client Project</p>
+                </div>
+                <img src="/assets/imgs/FoodPalace.jpg" alt="">
+            </div>
+            <div class="p-box">
+                <div class="text-overlay">
+                    <h1>Business</h1>
+                    <p>client Project</p>
+                </div>
+                <img src="/assets/imgs/ShrewdTech_6eg16.jpg" alt="">
+            </div>
+            <div class="p-box">
+                <div class="text-overlay">
+                    <h1>Business</h1>
+                    <p>client Project</p>
+                </div>
+                <img src="/assets/imgs/smartmockups_kptyjisu.jpg" alt="">
+            </div>
+            <div class="p-box">
+                <div class="text-overlay">
+                    <h1>Cafe</h1>
+                    <p>client Project</p>
+                </div>
+                <img src="/assets/imgs/smartmockups_kptwvh2m.jpg" alt="">
+            </div>
+        </div>
+     </section>
+
+     <!-- Contact -->
+     <section class="contact section" id="contact">
+        <div class="c-title sec-title">
+            <h1>Contact Me</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quam sed impedit.</p>
+        </div>
+        <form>
+            <div class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" class="message" id="" cols="30" rows="10" placeholder="Write Message..."></textarea>
+                </div>
+                <button class="btn">submit</button>
+            </div>
+        </form>
+     </section>
+
+     <!-- Footer -->
+     <footer class="footer">
+         <div class="footer-content">
+             <p class="content-one">Copyright © 2021 Portfolio Powered by Schrewd Tech</p>
+         </div>
+     </footer>
+
+    <script src="/assets/js/app.js"></script>
+</body> 
+</html>  
